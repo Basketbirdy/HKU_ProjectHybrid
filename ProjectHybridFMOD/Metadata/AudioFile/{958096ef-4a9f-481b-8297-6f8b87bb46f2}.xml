@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{958096ef-4a9f-481b-8297-6f8b87bb46f2}">
+		<property name="assetPath">
+			<value>420263__realdavidfloat__bassline-synth-110bpm-07.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.7272789115646265</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{01483ab1-416b-4352-b36a-0cd59ba8027d}</destination>
+		</relationship>
+	</object>
+</objects>

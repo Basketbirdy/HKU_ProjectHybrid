@@ -380,8 +380,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../OneDrive/Bureaublad/FMOD Files/ProjectHybrid/ProjectHybrid.fspro
-  sourceBankPath: ../../../OneDrive/Bureaublad/FMOD Files/ProjectHybrid/Build
+  sourceProjectPath: ../ProjectHybridFMOD/ProjectHybrid.fspro
+  sourceBankPath: ../ProjectHybridFMOD/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
