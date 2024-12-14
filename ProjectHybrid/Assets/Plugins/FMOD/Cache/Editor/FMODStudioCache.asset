@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../ProjectHybridFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638695359969938776
+  lastModified: 638697929465603282
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -35,10 +35,58 @@ MonoBehaviour:
   Path: ../ProjectHybridFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638695359969948924
+  lastModified: 638697929465613491
   FileSizes:
   - Name: Desktop
-    Value: 984
+    Value: 1010
+  Exists: 1
+--- !u!114 &-7853757797584978241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Object1/Tempo
+  m_EditorClassIdentifier: 
+  Name: Tempo
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2057447297
+    data2: 1094753600
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-7242615619021683146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Object3/Tempo
+  m_EditorClassIdentifier: 
+  Name: Tempo
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2057447297
+    data2: 1094753600
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-7086323583795034945
 MonoBehaviour:
@@ -93,6 +141,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-1896657638548211763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Object4
+  m_EditorClassIdentifier: 
+  Path: event:/Object4
+  Guid:
+    Data1: 104407037
+    Data2: 1340462797
+    Data3: 2091592362
+    Data4: -1831905224
+  Banks:
+  - {fileID: 9214256540574940993}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1391679946344595971}
+  - {fileID: 977676129543204809}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
 --- !u!114 &-1704649611953194818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,10 +195,34 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: -7086323583795034945}
-  - {fileID: 4918695755663303898}
+  - {fileID: -7853757797584978241}
   MinDistance: 1
   MaxDistance: 20
-  Length: 8727
+  Length: 8000
+--- !u!114 &-1391679946344595971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Object4/Tempo
+  m_EditorClassIdentifier: 
+  Name: Tempo
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2057447297
+    data2: 1094753600
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,13 +242,39 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -1704649611953194818}
   - {fileID: -3491832009151824189}
+  - {fileID: 8755526532932743793}
+  - {fileID: -1896657638548211763}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8934660767395714321}
   StringsBanks:
   - {fileID: -8617665985791516233}
-  cacheTime: 638695419055801651
+  cacheTime: 638697929470868643
   cacheVersion: 131621
+--- !u!114 &977676129543204809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Object4/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2971974864
+    data2: 246214697
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3513972585679912483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,7 +299,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &4918695755663303898
+--- !u!114 &3734232738490937591
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -182,16 +309,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Object1/Chorus
+  m_Name: parameter:/Object3/Volume
   m_EditorClassIdentifier: 
-  Name: Chorus
+  Name: Volume
   StudioPath: 
   Min: 0
   Max: 10
   Default: 0
   ID:
-    data1: 1665679754
-    data2: 1302596445
+    data1: 2971974864
+    data2: 246214697
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -220,6 +347,35 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &8755526532932743793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Object3
+  m_EditorClassIdentifier: 
+  Path: event:/Object3
+  Guid:
+    Data1: -1243676819
+    Data2: 1274683413
+    Data3: -119583821
+    Data4: -89576945
+  Banks:
+  - {fileID: 9214256540574940993}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3734232738490937591}
+  - {fileID: -7242615619021683146}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
 --- !u!114 &9214256540574940993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,8 +391,8 @@ MonoBehaviour:
   Path: ../ProjectHybridFMOD/Build/Desktop/Objects.bank
   Name: Objects
   StudioPath: bank:/Objects
-  lastModified: 638695419055801651
+  lastModified: 638697929470868643
   FileSizes:
   - Name: Desktop
-    Value: 225312
+    Value: 1595072
   Exists: 1

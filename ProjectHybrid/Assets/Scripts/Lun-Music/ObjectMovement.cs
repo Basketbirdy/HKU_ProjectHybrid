@@ -35,7 +35,7 @@ public class ObjectMovement : MonoBehaviour
     {
         // when dragging make sure the object follows the cursor
         // dont question the 9.5f i dont know either man but this is how it works 
-        transform.position = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 9.5f));
+        transform.position = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.5f));
         
         CheckDistances();
         CheckSound();
