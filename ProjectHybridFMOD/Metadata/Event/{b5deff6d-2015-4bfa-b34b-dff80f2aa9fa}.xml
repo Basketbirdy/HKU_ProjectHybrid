@@ -319,7 +319,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>8</value>
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{e76eedfe-eb1a-4d5d-94c6-ebf4eda59a00}</destination>
@@ -336,7 +336,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>6</value>
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{e76eedfe-eb1a-4d5d-94c6-ebf4eda59a00}</destination>
@@ -353,7 +353,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>2</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{e76eedfe-eb1a-4d5d-94c6-ebf4eda59a00}</destination>
@@ -370,7 +370,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{e76eedfe-eb1a-4d5d-94c6-ebf4eda59a00}</destination>
@@ -389,6 +389,8 @@
 		<relationship name="automationPoints">
 			<destination>{bc9bff48-adb3-4ade-bbbf-948bffc70171}</destination>
 			<destination>{54e153bf-38a8-4126-b493-eebbf7a772ee}</destination>
+			<destination>{26d94135-f9e5-446a-87ff-d8a581e42e53}</destination>
+			<destination>{87b43380-9b07-42e1-bd54-a978f0e5ede0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{4c4185fc-816d-46ea-93f1-6751600cc4d0}" />
@@ -399,7 +401,7 @@
 	<object class="MixerBusFader" id="{a28ed112-f1e9-4656-b4ab-8e907998a2dd}" />
 	<object class="AutomationPoint" id="{bc9bff48-adb3-4ade-bbbf-948bffc70171}">
 		<property name="position">
-			<value>10</value>
+			<value>5</value>
 		</property>
 		<property name="value">
 			<value>-25</value>
@@ -411,6 +413,22 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{26d94135-f9e5-446a-87ff-d8a581e42e53}">
+		<property name="position">
+			<value>-2.0833333333331039e-05</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{87b43380-9b07-42e1-bd54-a978f0e5ede0}">
+		<property name="position">
+			<value>5.0000208333333331</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 </objects>

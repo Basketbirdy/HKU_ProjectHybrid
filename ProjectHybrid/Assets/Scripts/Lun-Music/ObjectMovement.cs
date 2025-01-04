@@ -23,6 +23,9 @@ public class ObjectMovement : MonoBehaviour
     {
         transform.position = beginPos.position;
         sound = AudioManager.instance.CreateEventInstance(audioBit);
+
+        sound.start();
+        AudioManager.instance.SetSoundParameter(sound, parameterVolume, -1); // top changes volume
     }
 
 
@@ -63,18 +66,21 @@ public class ObjectMovement : MonoBehaviour
 
     private void CheckSound()
     {
-        if (checkPos.inValidPos)
+        //if (checkPos.inValidPos)
+        //{
+            //PLAYBACK_STATE playbackState;
+            //sound.getPlaybackState(out playbackState);
+            //if (playbackState.Equals(PLAYBACK_STATE.STOPPED))
+            //{
+            //    sound.start();
+            //}
+        //}
+
+        if (!checkPos.inValidPos)
         {
-            PLAYBACK_STATE playbackState;
-            sound.getPlaybackState(out playbackState);
-            if (playbackState.Equals(PLAYBACK_STATE.STOPPED))
-            {
-                sound.start();
-            }
-        }
-        else if (!checkPos.inValidPos)
-        {
-            sound.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            //sound.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+
+            AudioManager.instance.SetSoundParameter(sound, parameterVolume, -1); // top changes volume
         }
     }
 
@@ -83,6 +89,16 @@ public class ObjectMovement : MonoBehaviour
         // return values between 0 and 10, 0 being at the top/right
         topDistance = top.position.z - transform.position.z;
         rightDistance = right.position.x - transform.position.x;
+
+        if (topDistance < 0)
+        {
+            topDistance = -topDistance;
+        }
+
+        if (rightDistance < 0)
+        {
+            rightDistance = -rightDistance;
+        }
 
         ChangeSound();
     }

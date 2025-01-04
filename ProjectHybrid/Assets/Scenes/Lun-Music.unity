@@ -605,12 +605,12 @@ PrefabInstance:
         type: 3}
       propertyPath: top
       value: 
-      objectReference: {fileID: 15522816}
+      objectReference: {fileID: 76505612}
     - target: {fileID: 665586796976883258, guid: bcbd8931f14b66441b4b4222d87f8230,
         type: 3}
       propertyPath: right
       value: 
-      objectReference: {fileID: 1985782267}
+      objectReference: {fileID: 76505612}
     - target: {fileID: 665586796976883258, guid: bcbd8931f14b66441b4b4222d87f8230,
         type: 3}
       propertyPath: beginPos
@@ -766,12 +766,12 @@ PrefabInstance:
         type: 3}
       propertyPath: top
       value: 
-      objectReference: {fileID: 15522816}
+      objectReference: {fileID: 76505612}
     - target: {fileID: 665586796976883258, guid: bcbd8931f14b66441b4b4222d87f8230,
         type: 3}
       propertyPath: right
       value: 
-      objectReference: {fileID: 1985782267}
+      objectReference: {fileID: 76505612}
     - target: {fileID: 665586796976883258, guid: bcbd8931f14b66441b4b4222d87f8230,
         type: 3}
       propertyPath: beginPos
@@ -1274,12 +1274,12 @@ PrefabInstance:
         type: 3}
       propertyPath: top
       value: 
-      objectReference: {fileID: 15522816}
+      objectReference: {fileID: 76505612}
     - target: {fileID: 665586796976883258, guid: bcbd8931f14b66441b4b4222d87f8230,
         type: 3}
       propertyPath: right
       value: 
-      objectReference: {fileID: 1985782267}
+      objectReference: {fileID: 76505612}
     - target: {fileID: 665586796976883258, guid: bcbd8931f14b66441b4b4222d87f8230,
         type: 3}
       propertyPath: beginPos
@@ -2563,12 +2563,12 @@ PrefabInstance:
         type: 3}
       propertyPath: top
       value: 
-      objectReference: {fileID: 15522816}
+      objectReference: {fileID: 76505612}
     - target: {fileID: 665586796976883258, guid: bcbd8931f14b66441b4b4222d87f8230,
         type: 3}
       propertyPath: right
       value: 
-      objectReference: {fileID: 1985782267}
+      objectReference: {fileID: 76505612}
     - target: {fileID: 665586796976883258, guid: bcbd8931f14b66441b4b4222d87f8230,
         type: 3}
       propertyPath: beginPos

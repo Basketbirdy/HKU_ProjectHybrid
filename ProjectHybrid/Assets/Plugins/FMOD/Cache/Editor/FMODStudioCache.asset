@@ -55,7 +55,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 10
+  Max: 5
   Default: 0
   ID:
     data1: 2057447297
@@ -79,7 +79,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 10
+  Max: 5
   Default: 0
   ID:
     data1: 2057447297
@@ -102,9 +102,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: 0
-  Max: 10
-  Default: 0
+  Min: -1
+  Max: 6
+  Default: -1
   ID:
     data1: 2971974864
     data2: 246214697
@@ -214,7 +214,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 10
+  Max: 5
   Default: 0
   ID:
     data1: 2057447297
@@ -249,7 +249,7 @@ MonoBehaviour:
   - {fileID: -8934660767395714321}
   StringsBanks:
   - {fileID: -8617665985791516233}
-  cacheTime: 638697929470868643
+  cacheTime: 638716097013664299
   cacheVersion: 131621
 --- !u!114 &977676129543204809
 MonoBehaviour:
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: 0
-  Max: 10
-  Default: 0
+  Min: -1
+  Max: 6
+  Default: -1
   ID:
     data1: 2971974864
     data2: 246214697
@@ -289,9 +289,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: 0
-  Max: 10
-  Default: 0
+  Min: -1
+  Max: 6
+  Default: -1
   ID:
     data1: 2971974864
     data2: 246214697
@@ -313,9 +313,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: 0
-  Max: 10
-  Default: 0
+  Min: -1
+  Max: 6
+  Default: -1
   ID:
     data1: 2971974864
     data2: 246214697
@@ -338,7 +338,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 10
+  Max: 5
   Default: 0
   ID:
     data1: 2057447297
@@ -391,8 +391,8 @@ MonoBehaviour:
   Path: ../ProjectHybridFMOD/Build/Desktop/Objects.bank
   Name: Objects
   StudioPath: bank:/Objects
-  lastModified: 638697929470868643
+  lastModified: 638716097013664299
   FileSizes:
   - Name: Desktop
-    Value: 1595072
+    Value: 1595200
   Exists: 1
