@@ -55,7 +55,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -79,7 +79,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -103,7 +103,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -126,9 +126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -151,7 +151,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -174,9 +174,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -198,9 +198,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -222,9 +222,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -247,7 +247,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -271,7 +271,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -294,9 +294,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -406,7 +406,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -429,9 +429,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -500,7 +500,7 @@ MonoBehaviour:
   - {fileID: -8934660767395714321}
   StringsBanks:
   - {fileID: -8617665985791516233}
-  cacheTime: 638724515953991666
+  cacheTime: 638725549403908476
   cacheVersion: 131621
 --- !u!114 &257185486992248954
 MonoBehaviour:
@@ -603,9 +603,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -628,7 +628,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -652,7 +652,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -675,9 +675,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -728,9 +728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -752,9 +752,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Volume
   StudioPath: 
-  Min: -1
-  Max: 6
-  Default: -1
+  Min: -2
+  Max: 12
+  Default: -2
   ID:
     data1: 2971974864
     data2: 246214697
@@ -777,7 +777,7 @@ MonoBehaviour:
   Name: Tempo
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 10
   Default: 0
   ID:
     data1: 2057447297
@@ -859,7 +859,7 @@ MonoBehaviour:
   Path: ../ProjectHybridFMOD/Build/Desktop/Objects.bank
   Name: Objects
   StudioPath: bank:/Objects
-  lastModified: 638724515953991666
+  lastModified: 638725549403908476
   FileSizes:
   - Name: Desktop
     Value: 3653856
